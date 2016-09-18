@@ -1,0 +1,29 @@
+<section id="about" class="cont-sec about-sec">
+  <div class="cont-b">
+    <div class="container">
+      <div class="intro">
+        <h1 class="fn"><%= current_page.data.about.name %></h1>
+        <div class="desc"><%= current_page.data.about.job %></div>
+        <ul class="social-nav"></ul>
+        <div class="center">
+          <a href="/assets/docs/Resume.pdf" class="btn-2">Download CV</a>
+          <a href="<%= current_page.data.about.anotherlang.href %>" class="btn-2"><%= current_page.data.about.anotherlang.name %></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cont-b-2">
+    <div class="container">
+      <div class="about clearfix">
+        <div class="photo">
+          <img src="/assets/img/myphoto.jpg">
+        </div>
+        <div class="inner">
+          <p class="intro-text">
+            <%= current_page.data.about.desc %>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,75 @@
+<section id="resume" class="cont-sec resume-sec">
+  <div class="sec-title">
+    <div class="container">
+      <h2><%= current_page.data.resume.headline %></h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="cols">
+
+      <!-- PUBLICATIONS -->
+      <div class="col col-1-2">
+        <h3>Publication</h3>
+        <% current_page.data.resume.publications.records.each do |publication_k, publication_v| %>
+        <div class="date"><%= publication_v[:headline] %></div>
+        <% publication_v.records.each do |paper| %>
+        <p>
+          <% paper.each do |line| %>
+          <%= line %><br/>
+          <% end %>
+        </p>
+        <% end %>
+        <% end %>
+      </div>
+      <!-- /PUBLICATIONS -->
+
+      <!-- BIOGRAPHY -->
+      <div class="col col-1-2">
+        <h3>Biography</h3>
+        <div>
+          <% current_page.data.resume.biography.records.each do |biography| %>
+          <div class="date"><%= biography[:between] %></div>
+          <h4><%= biography[:overview][:headline] %></h4>
+          <p><%= biography[:overview][:content] %></p>
+          <div class="cols">
+            <img class="col col-1-2-noresponsive" src="<%= biography[:img] %>">
+            <div class="col col-1-2-noresponsive">
+              <h4><%= biography[:detail][:headline] %></h4>
+              <%= biography[:detail][:content] %>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+      <!-- BIOGRAPHY -->
+      
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="cols">
+      <div class="col col-1-2">
+
+        <h3>Reserch Interest</h3>
+
+        <ul class="tools clearfix interest">
+          <li>Natural Language Processing</li>
+          <li>Machine Learning</li>
+          <li>Data Mining</li>
+        </ul>
+      </div>
+      <div class="col col-1-2">
+        <h3>Skills</h3>
+        <ul class="tools clearfix skills">
+          <li>Python</li>
+          <li>Ruby</li>
+          <li>MySQL</li>
+          <li>HTML/CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

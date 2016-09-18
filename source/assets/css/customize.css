@@ -1,0 +1,19 @@
+.col-1-2-noresponsive {
+	float: left;
+	width: 48%;
+	margin-left: 4%;
+}
+
+strong {
+	color: #c0392b;
+	font: 1.1em/1 'quicksandbold';
+}
+
+.interest li{
+	background-color: #f39c12;
+	color: white;
+}
+.skills li{
+	background-color: #2ecc71;
+	color: white;
+}

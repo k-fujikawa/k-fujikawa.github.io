@@ -1,0 +1,12 @@
+<nav class="nav">
+  <div class="container">
+    <div class="nav-trigger"></div>
+    <ul>
+      <% current_page.data.navbar.each do |k, v| %>
+      <li>
+        <a href="#<%= k %>"><%= v %></a>
+      </li>
+      <% end %>
+    </ul>
+  </div>
+</nav>
