@@ -11,7 +11,7 @@ FTP_DEPLOY_PASSWORD=XXXXXXXX
 - Install dependencies
 
 ```
-bundle install --path vendor/bundle
+bundle install --path vendor/bundle --binstubs
 ```
 
 ## Run server & Deploy
@@ -19,6 +19,7 @@ bundle install --path vendor/bundle
 - Run server on localhost
 
 ```
+bin/middleman build
 bin/middleman serve
 ```
 
