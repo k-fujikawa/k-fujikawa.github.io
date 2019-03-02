@@ -7,6 +7,42 @@
   <div class="container">
     <div class="cols">
 
+      <!-- BIOGRAPHY -->
+      <div class="col col-1-2">
+        <h3>Biography</h3>
+        <div>
+          <% current_page.data.resume.biography.records.each do |biography| %>
+          <div class="date"><%= biography[:between] %></div>
+          <p>
+            <%= biography[:overview][:headline] %><br>
+            <%= biography[:overview][:content] %>
+          </p>
+          <div class="cols">
+            <div class="col">
+              <%= biography[:detail][:headline] %>
+              <%= biography[:detail][:content] %>
+            </div>
+          </div>
+          <% end %>
+        </div>
+
+        <h3>Machine Learning Competitions</h3>
+        <div>
+          <% current_page.data.resume.competitions.records.each do |competitions_k, competitions_v| %>
+            <div class="date"><%= competitions_v[:headline] %></div>
+            <% competitions_v.records.each do |competition| %>
+            <p>
+              <% competition.each do |line| %>
+              <%= line %><br/>
+              <% end %>
+            </p>
+            <% end %>
+          <% end %>
+        </div>
+
+      </div>
+      <!-- BIOGRAPHY -->
+
       <!-- PUBLICATIONS -->
       <div class="col col-1-2">
         <h3>Publication</h3>
@@ -23,25 +59,6 @@
       </div>
       <!-- /PUBLICATIONS -->
 
-      <!-- BIOGRAPHY -->
-      <div class="col col-1-2">
-        <h3>Biography</h3>
-        <div>
-          <% current_page.data.resume.biography.records.each do |biography| %>
-          <div class="date"><%= biography[:between] %></div>
-          <h4><%= biography[:overview][:headline] %></h4>
-          <p><%= biography[:overview][:content] %></p>
-          <div class="cols">
-            <img class="col col-1-2-noresponsive" src="<%= biography[:img] %>">
-            <div class="col col-1-2-noresponsive">
-              <h4><%= biography[:detail][:headline] %></h4>
-              <%= biography[:detail][:content] %>
-            </div>
-          </div>
-          <% end %>
-        </div>
-      </div>
-      <!-- BIOGRAPHY -->
       
     </div>
   </div>
@@ -55,9 +72,8 @@
         <h3>Reserch Interest</h3>
 
         <ul class="tools clearfix interest">
-          <li>Natural Language Processing</li>
-          <li>Machine Learning</li>
-          <li>Data Mining</li>
+          <li>Machine Learning for NLP</li>
+          <li>Machine Learning for ChemoInfomatics</li>
         </ul>
       </div>
       <div class="col col-1-2">
@@ -65,9 +81,7 @@
         <ul class="tools clearfix skills">
           <li>Python</li>
           <li>Ruby</li>
-          <li>MySQL</li>
-          <li>HTML/CSS</li>
-          <li>Javascript</li>
+          <li>Docker</li>
         </ul>
       </div>
     </div>
