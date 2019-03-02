@@ -88,7 +88,7 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
-    middleman-deploy (1.0.0)
+    middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
       net-sftp
       ptools
@@ -139,7 +139,7 @@ DEPENDENCIES
   dotenv
   middleman (>= 4.0.0)
   middleman-compass (>= 4.0.0)
-  middleman-deploy (>= 1.0)
+  middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-livereload
   rake (>= 0.9.2)
   therubyracer

@@ -14,23 +14,20 @@ configure :development do
   activate :livereload
 end
 
-case ENV['TARGET'].to_s.downcase
-when 'production'
-  activate :deploy do |deploy|
-    deploy.build_before    = true
-    deploy.deploy_method   = :ftp
-    deploy.host            = 'sv9.star.netowl.jp'
-    deploy.path            = '/'
-    deploy.user            = 'fz-qqq.net'
-    deploy.password        = ENV['FTP_DEPLOY_PASSWORD']
-  end
-else
-  activate :deploy do |deploy|
-    deploy.build_before    = true
-    deploy.deploy_method   = :ftp
-    deploy.host            = 'sv9.star.netowl.jp'
-    deploy.path            = '/resume.fz-qqq.net/'
-    deploy.user            = 'fz-qqq.net'
-    deploy.password        = ENV['FTP_DEPLOY_PASSWORD']
-  end
+# activate :deploy do |deploy|
+#   deploy.build_before    = true
+#   deploy.deploy_method   = :ftp
+#   deploy.host            = 'sv9.star.netowl.jp'
+#   deploy.path            = '/resume.fz-qqq.net/'
+#   deploy.user            = 'fz-qqq.net'
+#   deploy.password        = ENV['FTP_DEPLOY_PASSWORD']
+# end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  # Optional Settings
+  # deploy.remote   = 'custom-remote' # remote name or git url, default: origin
+  # deploy.branch   = 'custom-branch' # default: gh-pages
+  # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
+  # deploy.commit_message = 'custom-message'      # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
