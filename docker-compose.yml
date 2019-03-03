@@ -3,9 +3,6 @@ version: '3'
 services:
   base: &base
     image: resume
-    # user: $UID:$GID
-    # environment:
-    #   HOME: /tmp
     ports:
       - "${PORT:-8888}:${PORT:-8888}"
     volumes:
@@ -13,14 +10,18 @@ services:
       - ${PWD}:/app
   serve:
     <<: *base
-    command: >
-      middleman build
+    build:
+      context: .
+    command:
+      bash -c "
+      middleman build &&
       middleman serve -p ${PORT:-8888}
+      "
   deploy:
     <<: *base
     command:
       bash -c "
-      git config user.email 'k.fujikawa@gmail.com' &&
+      git config user.email 'k.fujikawa1014@gmail.com' &&
       git config user.name 'Kazuki Fujikawa' &&
-      middleman deploy
+      middleman deploy --build-before
       "
