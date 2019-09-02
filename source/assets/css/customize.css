@@ -13,7 +13,18 @@ strong {
 	background-color: #f39c12;
 	color: white;
 }
+
 .skills li{
 	background-color: #2ecc71;
 	color: white;
+}
+
+.social-link li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.social-link a{
+    text-decoration: none;
 }
