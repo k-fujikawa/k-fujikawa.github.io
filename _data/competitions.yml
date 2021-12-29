@@ -39,7 +39,7 @@
 - name: Quora Insincere Questions Classification
   result: 4th
   teams: 4037
-  date: Aug., 2019
+  date: Feb., 2019
   url: https://www.kaggle.com/c/quora-insincere-questions-classification/leaderboard
   description: >
     Predict insincere questions using RNN.<br>
