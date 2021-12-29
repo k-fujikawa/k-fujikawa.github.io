@@ -1,0 +1,53 @@
+# Competitions
+
+- name: Bristol-Myers Squibb – Molecular Translation
+  result: 3rd
+  teams: 874
+  date: Jun., 2021
+  url: https://www.kaggle.com/c/bms-molecular-translation/leaderboard
+  description: >
+    Generate chemical structure (InChI text) from images using Image Captioning framework.<br>
+    Solution details: <a href="https://www.kaggle.com/c/bms-molecular-translation/discussion/243932">discussion</a>, <a href="https://www.slideshare.net/KazukiFujikawa/bms-molecular-translation-3rd-place-solution-249382417">slide</a>.
+
+- name: OpenVaccine - COVID-19 mRNA Vaccine Degradation Prediction
+  result: 2nd
+  teams: 1636
+  date: Oct., 2020
+  url: https://www.kaggle.com/c/stanford-covid-vaccine/leaderboard
+  description: >
+    Predict degradation rates at each base of an RNA molecule using RNN / GNN.<br>
+    Solution details: <a href="https://www.kaggle.com/c/stanford-covid-vaccine/discussion/189709">discussion</a>, <a href="https://www.slideshare.net/KazukiFujikawa/stanford-covid-vaccine-2nd-place-solution">slide</a>.
+
+- name: Tweet Sentiment Extraction
+  result: 5th
+  teams: 2225
+  date: Jun., 2020
+  url: https://www.kaggle.com/c/tweet-sentiment-extraction/leaderboard
+  description: >
+    Extract support phrases for sentiment labels using RoBERTa.<br>
+    Solution details: <a href="https://www.kaggle.com/c/tweet-sentiment-extraction/discussion/159268">discussion</a>.
+
+- name: Predicting Molecular Properties
+  result: 13th
+  teams: 2737
+  date: Aug., 2019
+  url: https://www.kaggle.com/c/champs-scalar-coupling/leaderboard
+  description: >
+    Predict the magnetic interaction between two atoms in a molecule using GNN.<br>
+    Solution details: <a href="https://www.kaggle.com/c/champs-scalar-coupling/discussion/106377">discussion</a>, <a href="https://www.slideshare.net/KazukiFujikawa/kaggle-champs-predicting-molecular-properties">slide</a>.
+
+- name: Quora Insincere Questions Classification
+  result: 4th
+  teams: 4037
+  date: Aug., 2019
+  url: https://www.kaggle.com/c/quora-insincere-questions-classification/leaderboard
+  description: >
+    Predict insincere questions using RNN.<br>
+    Solution details: <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/81632">discussion</a>, <a href="https://www.slideshare.net/KazukiFujikawa/kaggle-quora-insincere-questions-classification">slide</a>.
+
+# - name: 
+#   result: 
+#   teams: 
+#   date: 
+#   url: 
+#   description: >

@@ -1,0 +1,13 @@
+# Degree
+- degree: M.E. in Computer Science
+  uni: Kobe University
+  year: 2014
+  summary:
+    - Stock price prediction based on news articles using deep neural networks.
+    - Finding negated expressions in natural languages using a classifier and heuristics.
+
+- degree: B.E. in Computer Science
+  uni: Kobe University
+  year: 2012
+  summary:
+    - Finding negated expressions in natural languages using a classifier and heuristics.

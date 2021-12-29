@@ -1,27 +1,14 @@
 version: '3'
 
 services:
-  base: &base
+  dev:
     image: resume
+    build:
+      context: .
     ports:
-      - "${PORT:-8888}:${PORT:-8888}"
+      - "${PORT:-4000}:${PORT:-4000}"
     volumes:
       - ${HOME}/.ssh:/root/.ssh
       - ${PWD}:/app
-  serve:
-    <<: *base
-    build:
-      context: .
     command:
-      bash -c "
-      middleman build &&
-      middleman serve -p ${PORT:-8888}
-      "
-  deploy:
-    <<: *base
-    command:
-      bash -c "
-      git config user.email 'k.fujikawa1014@gmail.com' &&
-      git config user.name 'Kazuki Fujikawa' &&
-      middleman deploy --build-before
-      "
+      bash -c "bundle exec jekyll serve --host 0.0.0.0 --port $PORT"

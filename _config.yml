@@ -1,0 +1,33 @@
+# Site settings
+title: "Kazuki Fujikawa | 藤川 和樹"
+description: "Kazuki Fujikawa | 藤川 和樹"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_name: "Kazuki Fujikawa"
+resume_title: "Machine Learning Engineer, Kaggle Grandmaster"
+
+resume_header_intro:
+  <p>Hi, I'm Kazuki Fujikawa (藤川 和樹), a machine learning engineer at DeNA, <a href="https://www.kaggle.com/kfujikawa", itemprop="url">Kaggle Grandmaster</a>. My research interests include machine learning and its application in natural language processing.</p>
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_competitions:    true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url: "https://github.com/k-fujikawa"
+  resume_twitter_url: "https://twitter.com/fuz_qwa"
+  resume_linkedin_url: "https://www.linkedin.com/in/kazuki-fujikawa-87b62150"
+resume_print_social_links: true
+
+# Design settings
+resume_theme:                   default

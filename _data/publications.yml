@@ -1,0 +1,37 @@
+# Publications
+
+Journal:
+  - title: >
+      NegFinder: A Web Service for Identifying Negation Signals and Their Scopes.
+    author: Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
+    reference: >
+      IPSJ Transactions on Bioinformatics.
+    urls:
+      pdf: https://www.jstage.jst.go.jp/article/ipsjtbio/6/0/6_29/_pdf
+International Conference:
+  - title: Predicting Stock Market Trends by Recurrent Deep Neural Networks.
+    author: Akira Yoshihara, Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
+    reference: >
+      In Proceedings of PRICAI 2014: Trends in Artificial Intelligence , pp. 759769, 2014.
+    urls:
+      url: http://link.springer.com/chapter/10.1007/978331913560160
+  - title: A Hybrid Approach to Finding Negated and Uncertain Expressions in Biomedical Documents.
+    author: Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
+    reference: >
+      In Proceedings of the 2nd International Workshop on Managing Interoperability and compleXity in Health Systems, pp. 6774, October 2012.
+    urls:
+      url: https://dl.acm.org/doi/10.1145/2389672.2389685
+Domestic Conference:
+  - title: 対話返答生成における個性の追加反映.
+    author: Koichi Hamada, Kazuki Fujikawa, Sosuke Kobayashi, Yuta Kikuchi, Yuya Unno and Masaaki Tsuchida.
+    reference: >
+      第232回自然言語処理研究会 (SIG-NL).
+    urls:
+      url: https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=182719&item_no=1
+      slide: https://www.slideshare.net/hamadakoichi/neural-dialogue-generation
+  - title: 言語情報を用いた経済指標の予測と分析.
+    author: Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
+    reference: >
+      第28回人工知能学会全国大会 (JSAI2014).
+    urls:
+      pdf: https://www.ai-gakkai.or.jp/jsai2014/webprogram/2014/pdf/755.pdf

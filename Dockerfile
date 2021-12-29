@@ -1,7 +1,8 @@
 FROM ruby:2.6.1
 
 WORKDIR /app
-ADD Gemfile /app/Gemfile
-RUN bundle install --binstubs
+RUN gem install bundler -v 2.1.4
+ADD Gemfile Gemfile.lock /app/
+RUN bundle install
 
 ADD . /app
