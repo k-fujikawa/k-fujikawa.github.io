@@ -2,6 +2,10 @@
 title: "Kazuki Fujikawa | 藤川 和樹"
 description: "Kazuki Fujikawa | 藤川 和樹"
 
+# Plugin settings
+plugins:
+  - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 sass:
