@@ -1,4 +1,13 @@
 # Competitions
+#
+- name: H&M Personalized Fashion Recommendations
+  result: 12th
+  teams: 2952
+  date: May., 2022
+  url: https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/leaderboard
+  description: >
+    Provide product recommendations based on previous purchases.<br>
+    Solution details: <a href="https://www.kaggle.com/competitions/h-and-m-personalized-fashion-recommendations/discussion/324310">discussion</a>.
 
 - name: Bristol-Myers Squibb – Molecular Translation
   result: 3rd
