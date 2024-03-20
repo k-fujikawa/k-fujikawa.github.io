@@ -1,5 +1,12 @@
-# Competitions
-#
+- name: Stanford Ribonanza RNA Folding
+  result: 8th
+  teams: 758
+  date: Dec., 2023
+  url: https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/leaderboard
+  description: >
+    Create a model that predicts the structures of any RNA molecule and the resulting chemical mapping profile.<br>
+    Solution details: <a href="https://www.kaggle.com/competitions/stanford-ribonanza-rna-folding/discussion/460222">discussion</a>.
+
 - name: H&M Personalized Fashion Recommendations
   result: 12th
   teams: 2952
@@ -53,10 +60,3 @@
   description: >
     Predict insincere questions using RNN.<br>
     Solution details: <a href="https://www.kaggle.com/c/quora-insincere-questions-classification/discussion/81632">discussion</a>, <a href="https://www.slideshare.net/KazukiFujikawa/kaggle-quora-insincere-questions-classification">slide</a>.
-
-# - name: 
-#   result: 
-#   teams: 
-#   date: 
-#   url: 
-#   description: >

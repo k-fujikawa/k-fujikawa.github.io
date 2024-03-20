@@ -1,6 +1,11 @@
-# Publications
-
 Journal:
+  - title: >
+      Deep learning models for predicting RNA degradation via dual crowdsourcing.
+    author: Wayment-Steele, Hannah K., et al.
+    reference: >
+      Nature Machine Intelligence.
+    urls:
+      url: https://www.nature.com/articles/s42256-022-00571-8
   - title: >
       NegFinder: A Web Service for Identifying Negation Signals and Their Scopes.
     author: Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.

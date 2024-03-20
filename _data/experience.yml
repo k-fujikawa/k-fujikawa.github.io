@@ -1,8 +1,9 @@
-# Jobs
 - company: DeNA Co., Ltd.
   position: Machine Learning Engineer
   duration: Apr., 2014 &mdash; Present
   summary:
-    - Data analytics for professional baseball team
-    - Molecule generation / property prediction for drug discovery
-    - Open-domain chatbot
+    - Head of data science team.
+    - Development of an LLM-based corporate SNS account posting support system.
+    - Analysis of professional baseball players based on sensor and video data.
+    - Molecule generation / property prediction for drug discovery.
+    - Open-domain chatbot.
