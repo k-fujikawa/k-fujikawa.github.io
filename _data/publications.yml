@@ -12,14 +12,14 @@ Journal:
     reference: >
       IPSJ Transactions on Bioinformatics.
     urls:
-      pdf: https://www.jstage.jst.go.jp/article/ipsjtbio/6/0/6_29/_pdf
+      url: https://www.jstage.jst.go.jp/article/ipsjtbio/6/0/6_29/_article/-char/ja/
 International Conference:
   - title: Predicting Stock Market Trends by Recurrent Deep Neural Networks.
     author: Akira Yoshihara, Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
     reference: >
       In Proceedings of PRICAI 2014: Trends in Artificial Intelligence , pp. 759769, 2014.
     urls:
-      url: http://link.springer.com/chapter/10.1007/978331913560160
+      url: https://link.springer.com/chapter/10.1007/978-3-319-13560-1_60
   - title: A Hybrid Approach to Finding Negated and Uncertain Expressions in Biomedical Documents.
     author: Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
     reference: >
