@@ -14,6 +14,12 @@ Journal:
     urls:
       url: https://www.jstage.jst.go.jp/article/ipsjtbio/6/0/6_29/_article/-char/ja/
 International Conference:
+  - title: Enhancing news recommendation with transformers and ensemble learning.
+    author: Kazuki Fujikawa, Naoki Murakami, Yuki Sugawara.
+    reference: >
+      In Proceedings of the Recommender Systems Challenge 2024.
+    urls:
+      url: https://dl.acm.org/doi/abs/10.1145/3687151.3687160
   - title: Predicting Stock Market Trends by Recurrent Deep Neural Networks.
     author: Akira Yoshihara, Kazuki Fujikawa, Kazuhiro Seki, and Kuniaki Uehara.
     reference: >
