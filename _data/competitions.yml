@@ -1,3 +1,12 @@
+- name: RecSys Challenge 2024
+  result: 1st
+  teams: 145
+  date: Jun., 2024
+  url: https://recsys.eb.dk/workshop/
+  description: >
+    Recommend news articles for the upcoming week based on the user's past activity.<br>
+    Solution details: <a href="https://speakerdeck.com/kfujikawa/enhancing-news-recommendation-with-transformers-and-ensemble-learning">slide</a>.
+
 - name: Stanford Ribonanza RNA Folding
   result: 8th
   teams: 758
